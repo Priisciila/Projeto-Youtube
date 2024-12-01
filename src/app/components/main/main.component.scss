@@ -1,0 +1,41 @@
+.main{
+    margin: 20px 0px;
+    background-color: rgb(252, 251, 251);
+}
+
+.card{
+    margin-top: 35px;
+    background-color: rgb(253, 251, 251);
+    color: rgb(255, 252, 252);
+}
+
+.card-img-top{
+    cursor: pointer;
+    border-radius: 12px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 17px;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+}
+
+.card-subtitle{
+    padding-bottom: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(10, 10, 10);
+}
+
+.card-subtitle:hover{
+    color: rgb(6, 6, 6);
+}
+
+@media screen and (max-width:500px){
+    .card{
+        width: 100%;
+    }
+}
